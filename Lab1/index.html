@@ -3,8 +3,9 @@
  <style>
         body {
             background-color:#F8FAC5;
-            color:gray;
-            text-align:center;
+            color:black;
+            
+            
         }
          header {
             text-align: center;
@@ -29,11 +30,32 @@
             text-align: center;
             font-size:2em;
         }
+       
+        
+        header, main, nav, footer {
+                  text-align: center;
+                  
+              }
+        
+        #pic{
+            
+            border-radius: 30px 30px 30px 30px;
+            float: left;
+        }
+        .hi{
+            text-align: left;
+            padding-left: 500px;
+        }
+        footer{
+            clear: left;
+            color: #055B79;
+            font-size: 0.95em;
+        }
      </style>  
     <head>
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         <meta charset="utf-8"/>
-        <tistle>Lab 1: Adrian Martinez</tistle>
+        <title>Lab 1: Adrian Martinez</title>
     </head>
     <body>
         <header>
@@ -47,22 +69,24 @@
             </nav>
            <main>
             <figure>
-                <img src="img/adrian.jpg" alt="Adrian Martinez photo"/>
+                <img id="pic"src="img/adrian.jpg" alt="Adrian Martinez photo"/>
             </figure>
-            <div>
+            <div id="hi">
                 Hello<br/>
                 <p> Thank you for vistiting my professional portfolio website.</p>
                 <p>I am a Software Engineer and will be graduating from CSUMB this semester</p>
                 <p> Feel free to contact me!</p>
                 <br/><br />
-                <em> With ordinary talent and extrodinary <strong>perseverance</strong>, all thibgs are attainable"</em><br/>
+                <em> "If you can’t fly then run, if you can’t run then walk, if you can’t walk then crawl, but whatever you do you have to keep moving <strong>forward</strong>."-Martin Luther King jr</em><br/>
             </div>
             </main>
         <footer>
             <hr>
-            Course Name. 2018&copy; Martinez<br/>
-            <strong>Disclamier:</strong> The information in this webpage is fictitous. <br/>
+            CST 336. 2018&copy; Martinez<br/>
+            <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
             It is used for academic purposes only.
+            <br/>
+            <img src="img/csumb-logo.png" alt="Adrian Martinez photo"/>
         </footer>
     </body>
 </html>
