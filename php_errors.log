@@ -1,0 +1,9 @@
+[07-Feb-2018 22:48:56 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/ubuntu/workspace/mart-cst336/practice/randomColor.php on line 13
+[12-Feb-2018 22:33:35 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/mart-cst336/practice/php_arrays.php on line 8
+[12-Feb-2018 22:33:35 UTC] PHP Stack trace:
+[12-Feb-2018 22:33:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/mart-cst336/practice/php_arrays.php:0
+[12-Feb-2018 22:33:35 UTC] PHP   2. array_push() /home/ubuntu/workspace/mart-cst336/practice/php_arrays.php:8
+[12-Feb-2018 22:33:51 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/mart-cst336/practice/php_arrays.php on line 8
+[12-Feb-2018 22:33:51 UTC] PHP Stack trace:
+[12-Feb-2018 22:33:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/mart-cst336/practice/php_arrays.php:0
+[12-Feb-2018 22:33:51 UTC] PHP   2. array_push() /home/ubuntu/workspace/mart-cst336/practice/php_arrays.php:8

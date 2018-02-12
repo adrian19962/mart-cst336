@@ -1,0 +1,10 @@
+[12-Feb-2018 08:41:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/mart-cst336/lab/lab2/index.php on line 69
+[12-Feb-2018 08:57:49 UTC] PHP Fatal error:  Call to undefined function ucfiest() in /home/ubuntu/workspace/mart-cst336/lab/lab2/index.php on line 36
+[12-Feb-2018 08:57:49 UTC] PHP Stack trace:
+[12-Feb-2018 08:57:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/mart-cst336/lab/lab2/index.php:0
+[12-Feb-2018 08:57:49 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/mart-cst336/lab/lab2/index.php:43
+[12-Feb-2018 08:58:15 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/ubuntu/workspace/mart-cst336/lab/lab2/index.php on line 74
+[12-Feb-2018 08:58:15 UTC] PHP Stack trace:
+[12-Feb-2018 08:58:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/mart-cst336/lab/lab2/index.php:0
+[12-Feb-2018 08:58:15 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/mart-cst336/lab/lab2/index.php:43
+[12-Feb-2018 08:58:15 UTC] PHP   3. displaypoints() /home/ubuntu/workspace/mart-cst336/lab/lab2/index.php:37
