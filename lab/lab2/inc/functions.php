@@ -44,12 +44,22 @@ function displaypoints($randomValue1, $randomValue2, $randomValue3){
                     switch ($randomValue1){
                         case 0: $totalpoints = 1000;
                                 echo"<h1>jackpot!</h1>";
+                                
                                 break;
                         case 1: $totalpoints = 500;
+                                
                                 break;
                         case 2: $totalpoints = 250;
+                                
+                                break;
+                        case 3: $totalpoints = 300;
+                                
+                                break;
+                        case 4: $totalpoints = 400;
+                                
                                 break;
                         case 5: $totalpoints = 900;
+                                
                                 break;
                     }
                     echo "<h2> you won $totalpoints points! </h2>";
