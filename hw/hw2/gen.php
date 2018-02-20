@@ -5,8 +5,9 @@ function carpick(){
 $my_array = array("1LT", "2LT", "RS", "1SS", "2SS", "ZL1", "ZL1 1LE");
 $pick = $my_array[rand(0,6)];
 $num =  array_search ($pick,$my_array);
+echo"<h2>";
 echo $pick;
-
+echo"</h2>";
 //echo "<div></div>";
 
 }
@@ -20,7 +21,7 @@ function vin()
         $t_nums = 0;
         $pass = [];
         $digorlet;
-        
+        echo"<h2>";
         for ($i = 0; $i <= $r_length; $i++)
         {
                 if ($t_nums < $r_nums)
@@ -40,8 +41,11 @@ function vin()
                 {
                     array_push($pass,$arr2[rand(0,25)]);
                 }
+                
                 echo $pass[$i];
+                
         }
+        echo"</h2>";
 }
 
 function plate()
@@ -53,7 +57,7 @@ function plate()
         $t_nums = 0;
         $pass = [];
         $digorlet;
-        
+        echo"<h2>";
         for ($i = 0; $i <= $r_length; $i++)
         {
                 if ($t_nums < $r_nums)
@@ -75,7 +79,7 @@ function plate()
                 }
                 echo $pass[$i];
         }
-       // echo "<div></div>";
+      echo"</h2>";
 }
 
 ?>

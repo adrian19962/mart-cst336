@@ -18,7 +18,7 @@
             echo '<h2>' .carpick(). '</h2>';
             echo "<h1> Vin Number: </h1>";
             echo '<h2>' .vin(). '</h2>';
-            echo "<h1> Plate Numeber: </h1>";
+            echo "<h1> Plate Number: </h1>";
             echo '<h2>'. plate().'</h2>';
             ?>
             
