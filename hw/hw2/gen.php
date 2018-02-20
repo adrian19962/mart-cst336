@@ -7,7 +7,7 @@ $pick = $my_array[rand(0,6)];
 $num =  array_search ($pick,$my_array);
 echo $pick;
 
-echo "<div>";
+//echo "<div></div>";
 
 }
 
@@ -75,7 +75,7 @@ function plate()
                 }
                 echo $pass[$i];
         }
-        echo "<div>";
+       // echo "<div></div>";
 }
 
 ?>

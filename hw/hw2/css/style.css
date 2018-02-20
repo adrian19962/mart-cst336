@@ -5,9 +5,7 @@
          color:#FFFF00;
          text-align: center;
         }
-        header {
-            text-align: center;
-        }
+        
        
         h1{
         font-family:'Pacifico', cursive;
@@ -16,17 +14,7 @@
         border: 2px solid #E9B82B;
         border-bottom: 2px solid #C0C0C0;
         }
-        h2:hover
-        {
-            
-            font-size:8em;
-            
-        }
-        h2{
-           font-size:4em; 
-           
-            
-        }
+       
        
         header, main, nav, footer {
                   text-align: center;
@@ -51,4 +39,16 @@
             padding-top: 50px
         }
         
-       
+       #pic:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
+
+       #pic1:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
