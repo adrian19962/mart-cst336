@@ -1,0 +1,7 @@
+[20-Feb-2018 02:36:40 UTC] PHP Fatal error:  Cannot redeclare carpick() (previously declared in /home/ubuntu/workspace/mart-cst336/hw/hw2/gen.php:3) in /home/ubuntu/workspace/mart-cst336/hw/hw2/gen.php on line 30
+[20-Feb-2018 02:36:40 UTC] PHP Stack trace:
+[20-Feb-2018 02:36:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/mart-cst336/hw/hw2/index.php:0
+[20-Feb-2018 03:03:16 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/mart-cst336/hw/hw2/gen.php on line 12
+[20-Feb-2018 03:03:16 UTC] PHP Stack trace:
+[20-Feb-2018 03:03:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/mart-cst336/hw/hw2/index.php:0
+[20-Feb-2018 03:03:16 UTC] PHP   2. carpick() /home/ubuntu/workspace/mart-cst336/hw/hw2/index.php:4

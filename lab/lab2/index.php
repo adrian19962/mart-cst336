@@ -25,8 +25,6 @@
             // for ($i=0; $i < 3; $i++) {
             //   displaySymbol();
             // }              
-         
-        
         ?>
         <form>
         <input type="submit" value="Spin!"/>
@@ -38,7 +36,6 @@
          <img src="img/orange.png" width="70" alt="Orange" title="Orange" />
 -->
 <footer>
-            
             CST 336. 2018&copy; Martinez<br/>
             <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
             <small>It is used for academic purposes only.</small>

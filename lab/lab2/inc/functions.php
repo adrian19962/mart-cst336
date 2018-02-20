@@ -35,9 +35,6 @@ function play(){
         
             }
 
-
-
-
 function displaypoints($randomValue1, $randomValue2, $randomValue3){
                 echo "<div id = 'output'>";
                 if ($randomValue1 == $randomValue2 && $randomValue2 == $randomValue3){
@@ -68,6 +65,4 @@ function displaypoints($randomValue1, $randomValue2, $randomValue3){
                 }
                 echo"</div>";
             }
-
-
 ?>
