@@ -15,11 +15,4 @@
          margin: 0 auto;   
          width: 700px;
     }
-    #layoutdiv
-    {
-        display: inline-block;
-        color: black;
-        text-align: left;
-        background-color: white;
-        border-radius: 10px
-    }
+    
