@@ -92,6 +92,14 @@
         {
           padding:10px;
         }
+        footer
+        {
+          display: inline-block;
+          color: black;
+          text-align: center;
+          background-color: white;
+          border-radius: 40px;
+        }
          
     </style>
     <body>
