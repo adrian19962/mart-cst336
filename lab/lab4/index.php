@@ -100,6 +100,14 @@
           background-color: white;
           border-radius: 40px;
         }
+        h2,h3
+        {
+          display: inline-block;
+          color: black;
+          text-align: center;
+          background-color: white;
+          border-radius: 40px;
+        }
          
     </style>
     <body>
