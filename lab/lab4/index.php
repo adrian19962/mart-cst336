@@ -3,8 +3,13 @@
  //print_r($_GET); //displaying all content submitted in the form using the GET method
 
   $backgroundImage = "img/sea.jpg";
+  
+   if(empty($_GET['keyword']) && empty($_GET['category']))
+      {
+        echo"<h2> You must type a keyword or select a category </h2>";
+      }
     
-  if (isset($_GET['keyword'])||isset($_GET['category'])) { //if form was submitted
+  if((($_GET['keyword'] == "" || empty($_GET['keyword'])) && !empty($_GET['category'])) || (!empty($_GET['keyword']) && !empty($_GET['category'])) || (!empty($_GET['keyword']) && empty($_GET['category']))) { //if form was submitted
       
       include 'api/pixabayAPI.php';
       
@@ -32,10 +37,7 @@
       
      
   }  
-   if($_GET['keyword']=="" && !isset($_GET['category']))
-      {
-        echo"<h2> You must type a keyword or select a category </h2>";
-      }
+   
  
  function checkCategory($category){
    
@@ -96,7 +98,7 @@
 
        <?php
         
-            //if (!isset($_GET['keyword'])||isset($_GET['category'])) {
+          //  if (!isset($_GET['keyword']) && !isset($_GET['category'])) {
         
             // echo "<h2> You must type a keyword or select a category </h2>";
             
@@ -136,14 +138,16 @@
             </select>
             </div>
             <div id="submitdiv">
+              
             <input id="submitd" type="submit" value="Submit!"/>
+             
             </div>
                     
         </form>
         
         <?php
           
-           if (isset($_GET['keyword'])) {
+          if((($_GET['keyword'] == "" || empty($_GET['keyword'])) && !empty($_GET['category'])) || (!empty($_GET['keyword']) && !empty($_GET['category'])) || (!empty($_GET['keyword']) && empty($_GET['category']))) {
         ?>
         
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -192,8 +196,6 @@
             }//endIf
         ?>
         
-        
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         
