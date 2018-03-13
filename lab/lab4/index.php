@@ -139,7 +139,9 @@
             
             <label for="hlayout"> Horizontal </label>
             <br>
-            <input type="radio" name="layout" value="vertical" id="vlayout" <?= ($_GET['layout']=="vertical")?"checked":"" ?>>
+            <input type="radio" name="layout" value="vertical" id="vlayout" 
+            <?= 
+            ($_GET['layout']=="vertical")?"checked":"" ?>>
             <label for="vlayout"> Vertical </label>
             <br>
             </div>

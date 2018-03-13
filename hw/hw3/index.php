@@ -4,7 +4,7 @@
   
    if(empty($_GET['keyword']) && empty($_GET['category']))
       {
-        echo"<h2> You must type a keyword or select a category </h2>";
+        echo"<h2> Please fill  out all questions! </h2>";
       }
     
   if((($_GET['keyword'] == "" || empty($_GET['keyword'])) && !empty($_GET['category'])) || (!empty($_GET['keyword']) && !empty($_GET['category'])) || (!empty($_GET['keyword']) && empty($_GET['category']))) { 
@@ -70,7 +70,7 @@
             
             <?php
             
-             if($_GET['keyword'] !='2016' && (!empty($_GET['keyword'])))
+             if($_GET['keyword'] !='2016' && (!empty($_GET['keyword'])) || $_GET['keyword']=="" && isset($_GET["submit"]))
              {
                  echo"<h2> Wrong +0 Points!</h2> <div></div>";
             }
@@ -109,7 +109,7 @@
                     echo"<h2> Correct +20 Points! </h2> <div></div>";
                 }
                 
-                else if($_GET['layout']!="335hp" && isset($_GET['layout']))
+                else if($_GET['layout']!="335hp" && isset($_GET['layout']) ||isset($_GET["submit"]))
                 {
                      echo"<h2> Wrong +0 Points!</h2> <div></div>";
                 }
@@ -195,7 +195,7 @@
                     echo"<h2> Correct +20 Points! </h2> <div></div>";
                 }
                 
-                else if($_GET['tire']!="nitto" && isset($_GET['tire']))
+                else if($_GET['tire']!="nitto" && isset($_GET['tire']) || isset($_GET["submit"]))
                 {
                     echo"<h2> Wrong +0 Points!</h2> <div></div>";
                 }
@@ -225,7 +225,7 @@
                     echo"<h2> Correct +20 Points! </h2> <div></div>";
                 }
                 
-                else if($_GET['gen']!="Yes" && isset($_GET['gen']))
+                else if($_GET['gen']!="Yes" && isset($_GET['gen']) || isset($_GET["submit"]))
                 {
                      echo"<h2> Wrong +0 Points!</h2> <div></div>";
                 }
@@ -233,7 +233,7 @@
                 
                 ?>
             <div id="submitdiv">
-            <input id="submitd" type="submit" value="Submit!"/>
+            <input id="submitd" type="submit" name="submit" value="Submit!"/>
                 
             <div></div>
                 
