@@ -54,7 +54,7 @@
     </head>
     <style>
         @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
-        @import url("css/styles.css");
+        @import url("css/style.css");
        
         
         
