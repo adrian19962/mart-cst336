@@ -85,7 +85,7 @@
             
            
             <div id="layoutdiv">
-            <legend>2. How much hourse power does a 6th Gen Camaro</legend> 
+            <legend>2. How much horsepower does a 6th Gen Camaro have:</legend> 
             <div></div> 
             <input type="radio" name="layout" value="335hp" id="hlayout" <?= ($_GET['layout']=="335hp")?"checked":"" ?>>
             <label for="335hp"> 335 </label>
@@ -174,7 +174,7 @@
                 
             
             <div id="layoutdiv">
-            <legend> 5. What tire compangt is he running? </legend>
+            <legend> 5. What tire company is he running: </legend>
             <div></div>
             <input type="radio" name="tire" value="nitto" id="hlayout" <?= ($_GET['tire']=="nitto")?"checked":"" ?>>
             <label for="335hp"> Nitto </label>
@@ -205,7 +205,7 @@
             
             
             <div id="layoutdiv">
-            <legend>6. Is this a 6th Gen Camaro<legend>
+            <legend>6. Is this a 6th generation Camaro:<legend>
             <br>
             <input type="radio" name="gen" value="Yes" id="Yes" <?= ($_GET['gen']=="Yes")?"checked":"" ?>>
             <label for="Yes">Yes</label></br>
