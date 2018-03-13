@@ -1,0 +1,57 @@
+#layoutdiv
+        {
+           
+            color: black;
+            text-align: left;
+            padding-left:400px;
+           
+        }
+        
+        #submitd
+        {
+            border-radius:50px;
+        }
+        #search
+        {
+          border-radius:20px;
+        }
+        #submitdiv
+        {
+          padding:15px;
+        }
+       
+        footer
+        {
+          display: inline-block;
+          color: black;
+          text-align: center;
+          background-color: white;
+          border-radius: 40px;
+          
+          
+        }
+        h2,h3
+        {
+          display: inline-block;
+          color: black;
+          text-align: center;
+          background-color: white;
+          border-radius: 40px;
+        }
+        body
+        {
+           
+            text-align: center;
+            background-image:url("img/mart_add.jpg");
+        } 
+        
+        h1,label 
+        {
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+         legend
+         {
+           color: white;
+            text-shadow: 2px 2px 4px #000000;   
+         }

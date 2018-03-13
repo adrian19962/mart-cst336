@@ -13,3 +13,28 @@
 [07-Feb-2018 23:39:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/mart-cst336/challenge/RandomCard/randomcard.php on line 52
 [07-Feb-2018 23:40:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/mart-cst336/challenge/RandomCard/randomcard.php on line 59
 [07-Feb-2018 23:45:02 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/mart-cst336/challenge/RandomCard/randomcard.php on line 55
+[12-Mar-2018 21:42:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php(32): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php on line 32
+[12-Mar-2018 21:43:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php on line 38
+[12-Mar-2018 21:44:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php:38
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php on line 38
+[12-Mar-2018 21:44:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.user' doesn't exist' in /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php:59
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php on line 59
+[12-Mar-2018 21:44:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.purchase' doesn't exist' in /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php:59
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php(59): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/challenge/challenge4/reports.php on line 59
