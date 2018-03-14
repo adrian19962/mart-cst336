@@ -2,7 +2,7 @@
 
 
   
-   if(empty($_GET['keyword']) && empty($_GET['category']))
+   if(empty($_GET['keyword']) && empty($_GET['category']) && isset($_GET["submit"]))
       {
         echo"<h2> Please fill  out all questions! </h2>";
       }
@@ -241,7 +241,7 @@
          
           $score = 0;
          
-          if ($_GET['keyword'] == 2016 )
+          if ($_GET['keyword'] == 2016)
              {
                  $score+= 20;
              }
@@ -266,8 +266,9 @@
              {
                  $score += 20;
              }
-             
+             if(isset($_GET["submit"])){
          echo "<h1>This is your total score " . $score . "</h1>";
+             }
          ?>
                 
                 <div></div>
