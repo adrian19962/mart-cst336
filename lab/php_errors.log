@@ -9,3 +9,4 @@
 [12-Feb-2018 08:58:15 UTC] PHP   2. displaySymbol() /home/ubuntu/workspace/mart-cst336/lab/lab2/index.php:43
 [12-Feb-2018 08:58:15 UTC] PHP   3. displaypoints() /home/ubuntu/workspace/mart-cst336/lab/lab2/index.php:37
 [02-Mar-2018 00:41:05 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '(' in /home/ubuntu/workspace/mart-cst336/lab/lab4/index.php on line 12
+[14-Mar-2018 22:15:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/mart-cst336/lab/lab6/index.php on line 139
