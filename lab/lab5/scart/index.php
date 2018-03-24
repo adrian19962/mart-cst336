@@ -9,10 +9,8 @@ if (!isset($_SESSION['cart'])){
 if (isset($_GET['query'])){
     include 'wmapi.php';
     $items = getProducts($_GET['query']);
+    
 }
-
-
-
 
 
 
@@ -25,8 +23,6 @@ if(isset($_POST['itemName'])){
     $newItem['img'] = $_POST['itemImg'];
     $newItem['id'] = $_POST['itemId'];
     
-    
-    
     foreach($_SESSION['cart'] as &$item){
         if($newItem['id'] ==  $item['id']){
             $item['quantity'] +=1;
@@ -34,23 +30,14 @@ if(isset($_POST['itemName'])){
     }
 }
 
-
     if ($found !=  true){
         $newItem['quantity'] = 1;
         array_push($_SESSION['cart'], $newItem);
     }    
-    
-    
     //array_push($_SESSION['cart'],$_POST['itemName']);
 }
 
-
-    
-
-
 ?>
-
-
 
 
 
@@ -59,6 +46,9 @@ if(isset($_POST['itemName'])){
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+            @import url("css/styles.css");
+        </style>>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -97,11 +87,21 @@ if(isset($_POST['itemName'])){
             
             <!-- Display Search Results -->
             <?php
-            
                 displayResults();
             ?>
             
         </div>
     </div>
+    <footer>
+            CST 336. 2018&copy; Martinez<br/>
+            <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
+            <small>It is used for academic purposes only.</small>
+            <br/>
+            <img src="img/csumb-logo.png" alt="csumb logo photo"/>
+            <br/>
+            <img id="veri" src="img/buddy_verified.png" alt="buddy check"/>
+        </footer>
+    </body>
+    
     </body>
 </html>

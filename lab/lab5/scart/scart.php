@@ -3,50 +3,50 @@ include 'functions.php';
 
 session_start();
 
-if(!isset($_SESSION['cart'])){
-    $_SESSION['cart'] = array();
-}
-if(isset($_GET['query'])){
-    include 'wmapi.php';
-    $items = getProducts($_GET['query']);
-}
+// if(!isset($_SESSION['cart'])){
+//     $_SESSION['cart'] = array();
+// }
 
-if(isset($_POST['itemName'])){
+// if(isset($_GET['query'])){
+//     include 'wmapi.php';
+//     $items = getProducts($_GET['query']);
+// }
+
+// if(isset($_POST['itemName'])){
     
-    $newItem = array();
-    $newItem['name'] = $_POST['itemName'];
-    $newItem['price'] = $_POST['itemPrice'];
-    $newItem['img'] = $_POST['itemImg'];
-    $newItem['id'] = $_POST['itemId'];
+//     $newItem = array();
+//     $newItem['name'] = $_POST['itemName'];
+//     $newItem['price'] = $_POST['itemPrice'];
+//     $newItem['img'] = $_POST['itemImg'];
+//     $newItem['id'] = $_POST['itemId'];
     
-        foreach($_SESSION['cart'] as &$item){
-        if($newItem['id'] ==  $item['id']){
-            $item['quantity'] +=1;
-            $found = true;
+//         foreach($_SESSION['cart'] as &$item){
+//         if($newItem['id'] ==  $item['id']){
+//             $item['quantity'] +=1;
+//             $found = true;
+//     }
+// }
+
+//     if ($found !=  true){
+//         $newItem['quantity'] = 1;
+//         array_push($_SESSION['cart'], $newItem);
+//     }    
+// }
+
+if(isset($_POST['removeId'])){
+    foreach($_SESSION['cart'] as $itemkey => $item){
+        if($item['id'] == $_POST ['removeId']){
+            unset($_SESSION['cart'][$itemkey]);
+        }
     }
 }
-
-
-    if ($found !=  true){
-        $newItem['quantity'] = 1;
-        array_push($_SESSION['cart'], $newItem);
-    }    
+if(isset($_POST['itemId'])){
+    foreach($_SESSION['cart'] as $item){
+        if($item['id'] == $_POST['itemId']){
+            $item['quantity'] = $_POST['update'];
+        }
+    }
 }
-
-// if(isset($_POST['removeId'])){
-//     foreach($_SESSION['cart'] as $itemkey => $item){
-//         if($item['id'] == $_POST ['removeId']){
-//             unset($_SESSION['cart'][$itemkey]);
-//         }
-//     }
-// }
-// if(isset($_POST['itemId'])){
-//     foreach($_SESSION['cart'] as $item){
-//         if($item['id'] == $_POST['itemId']){
-//             $item['quantity'] = $_POST['update'];
-//         }
-//     }
-// }
 
 
 
@@ -58,6 +58,9 @@ if(isset($_POST['itemName'])){
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+            @import url("css/styles.css");
+        </style>>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -86,10 +89,21 @@ if(isset($_POST['itemName'])){
                 <h2>Shopping Cart</h2>
                 <!-- Cart Items -->
                 <?php
-                displayResults();
+                displayCart();
                 ?>
 
             </div>
         </div>
+        
+        <footer>
+            CST 336. 2018&copy; Martinez<br/>
+            <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
+            <small>It is used for academic purposes only.</small>
+            <br/>
+            <img src="img/csumb-logo.png" alt="csumb logo photo"/>
+            <br/>
+            <img id="veri" src="img/buddy_verified.png" alt="buddy check"/>
+        </footer>
+    </body>
     </body>
 </html>

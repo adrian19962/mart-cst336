@@ -2,7 +2,7 @@
 function displayResults(){
     global $items;
     
-    if(isset($items)){
+    if(isset($items)) {
         echo "<table class='table'>";
         foreach($items as $item){
             $itemName = $item['name'];
@@ -38,9 +38,8 @@ function displayResults(){
         }
         echo "</table>";
     }
-   
-    
 }
+
 function displayCart(){
     if(isset($_SESSION['cart'])){
         
@@ -62,7 +61,6 @@ function displayCart(){
             echo "<td><h4>$".$item['price']."</h4></td>";
             //echo "<td><h4>$itemQuant</h4></td>";
             
-            
             echo "<form method='post'>";
             echo "<input type='hidden' name='itemId' value='$itemId'>";
             echo "<td><input type='text' name='update' class='form-control' placeHolder='$itemQuant'></td>";
@@ -75,13 +73,13 @@ function displayCart(){
             echo '<td><button class="btn btn-danger">Remove</button></td>';
             echo '</form>';
             
-            
             echo '</tr>';
            
         }
         echo "</table>";
     }
 }
+
 function displayCartCount(){
     echo count($_SESSION['cart']);
 }
