@@ -1,18 +1,26 @@
 <?php
+    
     include '../../dbConnection.php';
     $conn = getDatabaseConnection("ottermart");
     $productId = $_GET['productId'];
     
-        function displayCategories(){
-        global $conn;
+        
+        
         
           
         
        $sql = "SELECT * FROM `om_product`
             NATURAL JOIN om_purchase 
-            WHERE productId = $productId";
+            WHERE productId = :pId";
+            
+        $np= array();
+        $np[":pId"] = $productId;
+            
+            
+            
+            
         $stmt = $conn->prepare($sql);
-        $stmt->execute();
+        $stmt->execute($np);
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
         
@@ -38,9 +46,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title>Purchase History </title>
     </head>
     <body>
-
+ <footer>
+            CST 336. 2018&copy; Martinez<br/>
+            <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
+            <small>It is used for academic purposes only.</small>
+            <br/>
+            <img src="img/csumb-logo.png" alt="csumb logo photo"/>
+            <br/>
+            <img id="veri" src="img/buddy_verified.png" alt="buddy check"/>
+        </footer>
     </body>
 </html>

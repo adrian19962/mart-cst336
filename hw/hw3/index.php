@@ -69,7 +69,11 @@
             <div></div>
             
             <?php
+            if ((!empty($_GET['keyword'])) || $_GET['keyword']=="" && isset($_GET["submit"])){
+                echo"<h2> Answer the question!</h2> <div></div>";
+            }
             
+            else{
              if($_GET['keyword'] !='2016' && (!empty($_GET['keyword'])) || $_GET['keyword']=="" && isset($_GET["submit"]))
              {
                  echo"<h2> Wrong +0 Points!</h2> <div></div>";
@@ -78,7 +82,7 @@
             {
                 echo"<h2> Correct +20 Points! </h2> <div></div>";
             }
-            
+            }
             ?>
             
             
@@ -104,11 +108,13 @@
             </div>
             <div>
                 <?php
+               
+                
+              
                 if($_GET['layout']=="335hp")
                 {
                     echo"<h2> Correct +20 Points! </h2> <div></div>";
                 }
-                
                 else if($_GET['layout']!="335hp" && isset($_GET['layout']) ||isset($_GET["submit"]))
                 {
                      echo"<h2> Wrong +0 Points!</h2> <div></div>";

@@ -6,3 +6,10 @@
 [20-Feb-2018 03:03:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/mart-cst336/hw/hw2/index.php:0
 [20-Feb-2018 03:03:16 UTC] PHP   2. carpick() /home/ubuntu/workspace/mart-cst336/hw/hw2/index.php:4
 [13-Mar-2018 06:12:25 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/mart-cst336/hw/hw3/index.php on line 122
+[24-Mar-2018 20:14:04 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/mart-cst336/hw/hw3/index.php on line 113
+[24-Mar-2018 20:16:23 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/mart-cst336/hw/hw3/index.php on line 113
+[24-Mar-2018 20:16:42 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/mart-cst336/hw/hw3/index.php on line 113
+[24-Mar-2018 20:20:07 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/mart-cst336/hw/hw3/index.php on line 113
+[24-Mar-2018 20:20:18 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/mart-cst336/hw/hw3/index.php on line 113
+[24-Mar-2018 20:20:42 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/mart-cst336/hw/hw3/index.php on line 113
+[24-Mar-2018 20:20:49 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/mart-cst336/hw/hw3/index.php on line 113
