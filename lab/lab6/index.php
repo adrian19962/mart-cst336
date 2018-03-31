@@ -42,7 +42,8 @@
             $sql = "SELECT * FROM om_product WHERE 1";
             
             if (!empty($_GET['product'])) { //checks whether user has typed something in the "Product" text box
-                 $sql .=  " AND productName LIKE :productName";
+                 $sql .=  " AND productName LIKE :productName OR productDescription LIKE :productName";
+                 
                  $namedParameters[":productName"] = "%" . $_GET['product'] . "%";
             }
                   
