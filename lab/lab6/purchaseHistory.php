@@ -47,6 +47,9 @@
 <html>
     <head>
         <title>Purchase History </title>
+        <style type="text/css">
+             @import url("css/style.css");
+        </style>
     </head>
     <body>
  <footer>
