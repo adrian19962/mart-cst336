@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript Quiz </title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+       <script>
+            
+            $(document).ready( function(){
+                
+                
+                  $("#submitBtn").click( function(){ 
+                      //alert(  $("#q1").val()  );
+                      
+                      if (  $("#q1").val().toUpperCase() == "SACRAMENTO"  ) {
+                          
+                         // alert("Correct!");
+                         
+                         $("#feedback1").html(" Correct! The capital is Sacramento!");
+                         
+                          
+                      } else {
+                          
+                         // alert("Incorrect!");
+                         
+                            $("#feedback1").html(" Incorrect! The capital is Sacramento!");
+                    
+                      }
+                      
+                      if ($("#q2").val() == 50) {
+                           $("#feedback2").html("Correct! There are 50 stasrs!");
+                      }
+                      
+                      else {
+                           $("#feedback2").html("Inorrect! There are 50 stars!");
+                      }
+                      
+                      
+                      
+                  } );
+                
+                
+                
+            });
+            
+            
+            
+        </script>        
+    
+    </head>
+    <body>
+
+
+        1. What is the capital of California?
+        
+        <input id="q1" type="text">
+        
+        <div id="feedback1"></div>
+        
+        2. How many stars are on the U.S flag?
+        <select id= "q2" name= "cat">
+            <option value ="" > Select One</option>
+            <option value = "2"> 2</option>
+            <option value = "30"> 30</option>
+            <option value = "13"> 13</option>
+            <option value = "50"> 50</option>
+        </select>
+        
+        <div id="feedback2"></div>
+        
+        
+        <button id="submitBtn"> Submit Quiz </button>
+
+
+    </body>
+    
+  
+</html>
