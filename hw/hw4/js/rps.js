@@ -6,8 +6,6 @@ var btnGo;
 var computerChoice;
 var playerChoice;
 
-
-
 $("#btnRock").on("click", function(){
 	imgPlayer.src = 'img/rock.png';
 	btnRock.style.backgroundColor = '#888888';
@@ -53,7 +51,6 @@ function deselectAll(){
 function go(){
 	var txtEndTitle = document.getElementById('txtEndTitle');
 	var txtEndMessage = document.getElementById('txtEndMessage');
-	
 	var numChoice = Math.floor(Math.random() * 3);
 	var imgComputer = document.getElementById('imgComputer');
 	

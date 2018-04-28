@@ -19,3 +19,93 @@
 [31-Mar-2018 07:03:04 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/mart-cst336/lab/lab6/index.php on line 6
 [31-Mar-2018 07:03:04 UTC] PHP Stack trace:
 [31-Mar-2018 07:03:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/mart-cst336/lab/lab6/index.php:0
+[28-Apr-2018 22:04:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:04:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:06:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:07:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:07:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:08:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:08:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:12:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:15:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:15:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:15:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:15:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:15:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:17:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:17:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:17:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:26:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
+[28-Apr-2018 22:31:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'firstName' cannot be null' in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mart-cst336/lab/lab9/createAccountAPI.php on line 28
