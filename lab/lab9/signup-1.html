@@ -26,7 +26,6 @@
                         data: { "username": $("#username").val() },
                         success: function(data,status) {
                              //alert(data);
-                             
                              if (!data) {  //data == false
                                 $("#userError").html("");
                                 errors = false;
@@ -97,7 +96,16 @@
                    var zipCode = $("#zipCode").val();
                    var firstName = $("#firstName").val();
                    var lastName = $("#lastName").val();
-                   // if(errors==false){
+                   if (username == ""|| password == "" || firstName ==""||lastName==""|| zipCode=="" || $("#repeat").val() =="") {
+                       errors= true;
+                       
+                   }
+                //   else{
+                //       errors= false;
+                //   }
+                   
+                   
+                   if(errors==false){
                     $.ajax({
                         type: "GET",
                         url: "createAccountAPI.php",
@@ -109,13 +117,16 @@
                              if (data) {  //data == false
                                 $("#added").html("Record Added!");
                                 $("#added").css("color", "green");
+                                $("#zipCodeer").html("");
+                                $("#repeatError").html("");
+                                $("#userError").html("");
                              } else {
                                  $("#added").html("One or more forms empty!");
                                  $("#added").css("color","red");
                              }
                         }
                     });//ajax
-                   // }
+                   }
                 });
             } ); //documentReady
         </script>

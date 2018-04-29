@@ -11,7 +11,7 @@ $zipCode = $_GET['zipCode'];
 $password = sha1($_GET['password']);
 
 
-//if (isset($_GET['submit']) && isset($_GET['password']) && isset($_GET['zipCode'])
+if ( isset($_GET['password']) && isset($_GET['zipCode']) && isset($_GET['lastName']) && isset($_GET['firstName']) && isset($_GET['firstName'])){
 //&& isset($_GET['username']) && isset($_GET['firstName']) && isset($_GET['lastName'])) {
     //$sql2 = "INSERT INTO lab9_user
                 //( `firstName`, `lastName`, `zipCode`, `username`, `password`) 
@@ -39,5 +39,5 @@ $password = sha1($_GET['password']);
     );
     
     echo "true";
-//}
+}
 ?>
