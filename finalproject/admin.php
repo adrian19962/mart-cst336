@@ -105,7 +105,7 @@ function displayAllProducts(){
             echo "</table>";
         
         ?>
-        
+        <!--number_format((float)$record['AVG(productPrice)'], 2, '.', '')-->
         <br></br>
         <h2>Average of all product prices </h2>
         <?php 
@@ -114,7 +114,7 @@ function displayAllProducts(){
     $statement->execute();
     $records = $statement->fetchAll();
     foreach($records as $record) {
-    echo " <h4> Average price: ". $record['avg']. "</h4>";
+    echo " <h4> Average price: ". number_format((float)$record['avg'], 2, '.', ''). "</h4>";
         
     }
         
