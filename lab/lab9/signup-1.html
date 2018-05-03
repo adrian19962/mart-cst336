@@ -108,7 +108,7 @@
                    else{
                         $("#first").html("");
                    }
-                    if(lastName == ""){
+                  if(lastName == ""){
                        $("#last").html("Enter your last name!");
                        $("#last").css("color", "red");
                        return;
@@ -150,11 +150,6 @@
                         $("#repeatError").html("");
                    }
 
-
-
-
-                   
-                   
                    if(errors==false){
                     $.ajax({
                         type: "GET",
@@ -226,6 +221,5 @@
             <br/>
             <img id="veri" src="img/buddy_verified.png" alt="buddy check"/>
         </footer>
-    
     </body>
 </html>
