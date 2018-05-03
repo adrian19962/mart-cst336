@@ -137,6 +137,7 @@ function displayAllProducts(){
         
         <h2>Total number of products in each category</h2>
         <?php 
+       // $sql="SELECT p.catId, catName, COUNT(p.catId) num FROM product p JOIN category c ON p.catId = c.catId WHERE 1";
         $sql="SELECT catId, COUNT(catId) num FROM `product` WHERE 1 GROUP BY catId";
     $statement = $conn->prepare($sql);
     $statement->execute();
