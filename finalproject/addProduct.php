@@ -90,6 +90,7 @@ if (isset($_GET['submitProduct'])) {
                         <a class='navbar-brand' href='#'>Otterstyle Shop</a>
                     </div>
                     <ul class='nav navbar-nav'>
+                        <li><a href='admin.php'>Home</a></li>
                     </ul>
                 </div>
             </nav>
