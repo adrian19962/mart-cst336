@@ -750,12 +750,13 @@ function display(){
         <?=display(); ?>
 
                    
-        
+        <br></br>
          <form action="main.php">
         <input type="submit" value="Admin login" />
         </form>
         </a>
     </body>
+    
     <footer>
         <hr>
             CST 336 Internet Programming 2018&copy; Adrian Martinez <br />

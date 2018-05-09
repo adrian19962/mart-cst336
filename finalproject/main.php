@@ -67,6 +67,7 @@
              <fieldset>
             Username: <input type="text" id = "username"name="username"/> <br /> <span id="userError" style="color:red"></span><br>
             Password: <input type="password" name="password"/> <br />
+            <br></br>
             
             <input type="submit" name="submitForm" value="Login!" />
             
@@ -79,11 +80,11 @@
                 echo $_SESSION['wrong'];
             }
         ?>
-        
+        <br></br>
         <a href='https://docs.google.com/document/d/1WElbO4i5K2nO3tdmix8sa-eI9od8Bs3VHh8S6MGG-tc/edit?usp=sharing' target='_blank'>
              Link to my Documentation!
          </a>
-        
+        <br></br>
         <footer>
             CST 336. 2018&copy; Martinez<br/>
             <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>

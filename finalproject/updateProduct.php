@@ -145,7 +145,7 @@
         <form action="admin.php">
         <input type="submit" value="Return" />
         </form>
-        
+        <br></br>
         <footer>
             CST 336. 2018&copy; Martinez<br/>
             <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br/>
